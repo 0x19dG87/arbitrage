@@ -4,7 +4,7 @@ const addon = require('bindings')('sssp');
 
 const init = async () => {
     const startApi = performance.now();
-    const uni3Url = `https://gateway.thegraph.com/api/${process.env.API_KEY}/subgraphs/id/ELUcwgpm14LKPLrBRuVvPvNKHQ9HvwmtKgKSH6123cr7`;
+    const uni3Url = `https://gateway.thegraph.com/api/${process.env.API_KEY}/subgraphs/id/EN9rjKtzNitTEb5hgt8bmiyzzhwBpJrJaRihkg8Me8Rr`;
     const sushiUrl = `https://gateway.thegraph.com/api/${process.env.API_KEY}/subgraphs/id/D7azkFFPFT5H8i32ApXLr34UQyBfxDAfKoCEK4M832M6`;
     const uni2Url = `https://gateway.thegraph.com/api/${process.env.API_KEY}/subgraphs/id/2szAn45skWZFLPUbxFEtjiEzT1FMW8Ff5ReUPbZbQxtt`;
     const [uni, sushi, uni2] = await Promise.all([
